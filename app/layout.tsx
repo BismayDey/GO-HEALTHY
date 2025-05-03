@@ -13,6 +13,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="icon"
+          href="https://i.postimg.cc/mgFfFvyC/healthy-lifestyle.png"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
